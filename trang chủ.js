@@ -1,3 +1,7 @@
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+
 const rightbtn = document.querySelector('.fa-caret-right')
 const leftbtn = document.querySelector('.fa-caret-left')
 

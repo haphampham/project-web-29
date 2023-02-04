@@ -98,8 +98,8 @@ a{
     object-fit: cover;
     position: absolute;
 }
-/* ---- */
-/* .silder-conten-left-top a:nth-child(2) img{
+
+ .silder-conten-left-top a:nth-child(2) img{
     transform: translateX(100%);
 }
 .silder-conten-left-top a:nth-child(3) img{
@@ -110,8 +110,8 @@ a{
 }
 .silder-conten-left-top a:nth-child(5) img{
     transform: translateX(400%);
-} */
-/* ----- */
+}
+
 .silder-conten-left-bottom{
     justify-content: space-between;
     border: 2px solid #ddd;
