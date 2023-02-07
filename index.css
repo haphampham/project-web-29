@@ -142,11 +142,13 @@ a{
 .silder-conten-right{
     width: 35%;
     flex-wrap: wrap;
-   padding:0 47px;
+    gap: 10px;
+    margin-left: 20px;
+
 }
 .silder-conten-right li{
-    width: 50%;
-    height: 50%;
+    width: 170px;
+    height: 170px;
     text-align: center;
 }
 .silder-conten-right li img{
@@ -178,7 +180,7 @@ a{
 /* enabled----------- */
 .enabled{
      background-image: url(./image/nen_1.jpg);
-    margin-top: 40px;
+    margin-top: 50px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -242,30 +244,32 @@ a{
     justify-content: center;
     gap: 30px;
 }
-
-.product-contact{
-    flex-wrap: wrap-reverse;
-    justify-content: center;
-    padding: 20px;
+.row{
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 20px;
 }
-.product-item-img img{
-    height: 210px;
-    width: 210px;
-    border-radius: 10px;
-}
-.product-contact-item{
-    height: 300px;
-    width: 230px;
-}
-.product-item-h3{
-    color: #b1c23c;
-    margin-top: -12px;
-}
-.product-item-hover{
-    display: none;
-}
-.product-contact-item:hover .product-item-hover{
+.product-item{
     display: block;
+    overflow: hidden;
+    height: 100%;
+    margin-bottom: 10px;
+    width: 275px;
+}
+.product-item .product-img{
+     height: 275px;
+     width: 275px;
+}
+.pro-name{
+    margin: 0 0 5px;
+    font-size: 14px;
+    min-height: 18px;
+}
+.pro-prices{
+    color: #b1c23c;
+    font-size: 14px;
+    margin: 0;
 }
 /* ---story-- */
 .story{
@@ -308,6 +312,39 @@ a{
     width: 400px;
     position: absolute;
     margin-top: -18pc;
+}
+/*service  */
+.service{
+     text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.service-logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.service h1{
+    font-weight: 500;
+     line-height: 40px;
+    color: #4B494E;
+    padding: 20px 0;
+    display: block;
+     font-size: 45px;
+}
+.service-row-img{
+    height: 195px;
+    width: 170px;
+}
+.service-row-h4{
+    color: #b1c23c;
+    font-size: 28px;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    text-align: center;
+    line-height: 40px;
 }
 
     
