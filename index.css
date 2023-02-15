@@ -39,6 +39,7 @@ a{
     z-index: 9999999;
     opacity: .81;
 }
+
 .header .logo img{
     height: 70px;
     border-radius: 10px;
@@ -52,6 +53,7 @@ a{
     padding: 0 5px;
     color: white!important;
     font-family: cursive;
+    text-decoration: none;
 }
 .other > li{
     padding: 0 12px;
@@ -99,7 +101,7 @@ a{
     position: absolute;
 }
 
- .silder-conten-left-top a:nth-child(2) img{
+ /* .silder-conten-left-top a:nth-child(2) img{
     transform: translateX(100%);
 }
 .silder-conten-left-top a:nth-child(3) img{
@@ -110,7 +112,7 @@ a{
 }
 .silder-conten-left-top a:nth-child(5) img{
     transform: translateX(400%);
-}
+} */
 
 .silder-conten-left-bottom{
     justify-content: space-between;
@@ -225,7 +227,6 @@ a{
     text-align: center;
     justify-content: center;
     align-items: center;
-
 }
 .product-logo img{
     height: 80px;
@@ -276,7 +277,6 @@ a{
     text-align: center;
     justify-content: center;
     align-items: center;
-
 }
 .story-logo img{
     height: 80px;
@@ -302,8 +302,8 @@ a{
     margin-bottom: 15px;
 }
 .story-right{
-    width: 512px;
-    height: 377px;
+    width: 490px;
+    height: 360px;
     position: relative;
    background:  #b1c23c;
 }
@@ -312,6 +312,7 @@ a{
     width: 400px;
     position: absolute;
     margin-top: -18pc;
+    margin-left: -95px;
 }
 /*service  */
 .service{
@@ -333,6 +334,9 @@ a{
     display: block;
      font-size: 45px;
 }
+.rox-service{
+    width: 250px;
+}
 .service-row-img{
     height: 195px;
     width: 170px;
@@ -341,10 +345,82 @@ a{
     color: #b1c23c;
     font-size: 28px;
     font-weight: normal;
-    margin-top: 50px;
     margin-bottom: 35px;
     text-align: center;
     line-height: 40px;
+}
+/* ảticle */
+.article{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.article-logo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.article-h1{
+    font-weight: 500;
+    line-height: 40px;
+   color: #4B494E;
+   padding: 20px 0;
+   display: block;
+    font-size: 45px;
+}
+.article-item{
+    transition: 0.3s;
+   margin-top: 20px;
+    background: #fff;
+    gap: 20px;
+    justify-content: center;
+}
+.article-item-wrap{
+    width: 25%;
+    border: 1px solid #a1a1a1;
+}
+.article-image img{
+    width: 400px;
+    height: 278px;
+    overflow: hidden;
+}
+.article-content {
+    padding: 30px 20px 28px 20px;
+}
+.article-title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.article-desc {
+    margin-bottom: 15px;
+}
+.article-desc p {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 17px;
+    line-height: 28px;
+    color: #4B494E;
+}
+/*  */
+footer {
+    padding: 40px 0 10px;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    background-image: url(./image/nen_1.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    margin-top: 30px;
+}
+.footer-title{
+    color: #b1c23c;
+}
+.row .col-12{
+    margin-top: 12px;
 }
 
     
